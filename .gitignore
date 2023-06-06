@@ -1,0 +1,4 @@
+venv
+main.py
+Data/product_data.csv
+Data/nlp_result.png
