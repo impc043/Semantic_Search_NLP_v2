@@ -14,7 +14,7 @@
 ## General Information
 - We developed a CLI application based on NLP concepts that finds the top similar text/questions to the user-provided input. 
 - We use pre-trained sentence transformer ``sentence-transformers/all-distilroberta-v1`` available at ``hugging face``. 
-- How it works:
+- How does it works:
   1. This project uses the subset of the famous ELI5 dataset. 
   2. Then We have perform vector embedding on ``question`` column and store it in ``redis-vector-database`` .
   3. After that it convert user input ``query(question)``. 
